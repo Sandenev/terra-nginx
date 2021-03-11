@@ -11,7 +11,7 @@ terraform {
 provider "google" {
   # Configuration options
   credentials = file("cred_file.json")
-  project     = "eloquent-anthem-302409"
+  project     = "имя проекта"
   region      = "us-central1"
   zone      = "us-central1-a"
 }
